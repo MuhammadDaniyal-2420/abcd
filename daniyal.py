@@ -6,7 +6,7 @@ url = "https://text-translator2.p.rapidapi.com/translate"
 st.title("Text Translator")
 
 source_language = st.selectbox("Source Language", ["en", "id"])
-target_language = st.selectbox("Target Language", ["en", "id"])
+target_language = st.selectbox("Target Language", ["eu", "id"])
 text = st.text_input("Enter Text")
 
 payload = {
